@@ -37,6 +37,10 @@ Library:
 
 ![Alt text](screenshot/class_table.png)
 
+![Alt text](screenshot/function1.png)
+
+![Alt text](screenshot/function2.png)
+
 
 
 ## 6. Test Case
