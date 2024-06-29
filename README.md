@@ -32,10 +32,15 @@ Library:
 
 ## 5. Code Explanation
 
-- **main.py**: The main script work as program simulation and import module transaction
-- **module_transaction.py**: The module script that has class Transaction and its function methods
+- **_main.py_**: The main script work as program simulation and import module transaction
+- **_module_transaction.py_**: The module script that has class Transaction and its function methods
 
----------------------------------
+![Alt text](screenshot/class_table.png)
+
+![Alt text](screenshot/function1.png)
+
+![Alt text](screenshot/function2.png)
+
 
 ## 6. Test Case
 
