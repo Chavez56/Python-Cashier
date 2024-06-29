@@ -2,7 +2,7 @@
 
 ## 1. Background
 
-Super Cashier is a program to help customer for doing transaction independently in the shop/supermarket. Customer can add bought items, item quantity and price per item and get discount if the transaction met the total price requirements.
+Super Cashier is a simple program to help customer for doing transaction independently in the shop/supermarket. Customer can add bought items, item quantity and price per item and get discount if the transaction met the total price requirements.
 
 ## 2. Tools
 Programming Languages and Software:
@@ -28,7 +28,20 @@ Library:
 
 ## 4. Flowchart
 
----------------------------------
+![Alt text](screenshot/Flowchart.png)
+
+#### Description:
+-  Transaction module imported and its class called by Consumer
+-  Consumer can start their transaction
+-  Consumer add item, quantity, and price with method **add_item**
+-  Consumer can update their order with:
+   (1) **update_item_name** for change item name;
+   (2) **update_item_quantity** for update item quantity;
+   (3) **update_item_price** for update price of item.
+- If they cancel to buy one item or more items, Consumer can use method **delete_item** with inserting item name
+- If they cancel order, Consumer can use method **reset_transaction** and start order again
+- If their order is done, Consumer can check order with method **check_order**
+- Consumer get total price and discount if their total price is met the requirements with method **total_price**
 
 ## 5. Code Explanation
 
@@ -112,9 +125,14 @@ Customer input empty item name
 
   ![Alt text](screenshot/test_special.png)
 
-## 8. Future Work
+## 8. Conclusion and Future Work
 
-----------------------------------
+#### Conclusion:
+With Super Cashier Program, Consumer can do their transaction independently. It is hoped that it can help business actors in optimizing their business processes.
+
+#### Future Work:
+- Can be added with the choice option for transaction
+- Can be added with list of items in the shop/supermarket to identify whether the item is available or not
 
 
 
