@@ -133,7 +133,7 @@ With Super Cashier Program, Consumer can do their transaction independently. It 
 #### Future Work:
 - Can be added with the choice option for transaction
 - Can be added with list of items in the shop/supermarket to identify whether the item is available or not
-- Can be added with list of items that have been expired and give suggestion to customer
+- Can be added with list of items that is near to expiration date and give suggestion to customer
 
 
 
