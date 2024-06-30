@@ -35,9 +35,9 @@ Library:
 -  Consumer can start their transaction
 -  Consumer add item, quantity, and price with method **add_item**
 -  Consumer can update their order with:
-   (1) **update_item_name** for change item name;
-   (2) **update_item_quantity** for update item quantity;
-   (3) **update_item_price** for update price of item.
+   (1) **update_item_name** for changing item name;
+   (2) **update_item_quantity** for updating item quantity;
+   (3) **update_item_price** for updating price of item.
 - If they cancel to buy one item or more items, Consumer can use method **delete_item** with inserting item name
 - If they cancel order, Consumer can use method **reset_transaction** and start order again
 - If their order is done, Consumer can check order with method **check_order**
@@ -133,6 +133,7 @@ With Super Cashier Program, Consumer can do their transaction independently. It 
 #### Future Work:
 - Can be added with the choice option for transaction
 - Can be added with list of items in the shop/supermarket to identify whether the item is available or not
+- Can be added with list of items that have been expired and give suggestion to customer
 
 
 
