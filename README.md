@@ -136,5 +136,8 @@ With Super Cashier Program, Consumer can do their transaction independently. It 
 - Can be added with list of items that is near to expiration date and give suggestion to customer
 
 
+**Author** Copyright (c) *2024 Muhammad Chavez Assad Patriot*
+
+
 
 
